@@ -1,4 +1,6 @@
-﻿using ETicaretAPI.Application.Abstractions;
+﻿using ETicaretAPI.Application;
+using ETicaretAPI.Application.Abstractions;
+using ETicaretAPI.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,17 +10,26 @@ namespace ETicaretAPI.API.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        private readonly IProductService _productService;
+        private readonly IProductReadRepository _productReadRepository;
+        private readonly IProductWriteRepository _productWriteRepository;
 
-        public ProductsController(IProductService productService)
+        public ProductsController(IProductReadRepository productReadRepository, IProductWriteRepository productWriteRepository)
         {
-            _productService = productService;
+            _productReadRepository = productReadRepository;
+            _productWriteRepository = productWriteRepository;
         }
 
         [HttpGet]
         public IActionResult GetAllProducts()
         {
-            return Ok(_productService.GetProducts());
+            return Ok(_productReadRepository.GetAll());
+        }
+
+        [HttpPost("post")]
+        public async Task<IActionResult> Test(Product product)
+        {
+            await _productWriteRepository.AddAsync(product);
+            return Ok(await _productWriteRepository.SaveAsync());
         }
     }
 }
