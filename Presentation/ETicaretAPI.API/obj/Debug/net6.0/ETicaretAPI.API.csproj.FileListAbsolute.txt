@@ -1,0 +1,66 @@
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\appsettings.json
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.API.exe
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.API.deps.json
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.API.runtimeconfig.json
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.API.dll
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.API.pdb
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.Application.dll
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.Domain.dll
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.Persistence.dll
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.Application.pdb
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.Persistence.pdb
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.Domain.pdb
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.csproj.AssemblyReference.cache
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.AssemblyInfoInputs.cache
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.AssemblyInfo.cs
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.csproj.CoreCompileInputs.cache
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\scopedcss\bundle\ETicaretAPI.API.styles.css
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.csproj.CopyComplete
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.dll
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\refint\ETicaretAPI.API.dll
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.pdb
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.genruntimeconfig.cache
+C:\Users\cafarovr\source\repos\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ref\ETicaretAPI.API.dll
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\appsettings.json
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.API.exe
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.API.deps.json
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.API.runtimeconfig.json
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.API.dll
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.API.pdb
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.Application.dll
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.Domain.dll
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.Persistence.dll
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.Application.pdb
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.Persistence.pdb
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.Domain.pdb
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.csproj.AssemblyReference.cache
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.AssemblyInfoInputs.cache
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.AssemblyInfo.cs
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.csproj.CoreCompileInputs.cache
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\scopedcss\bundle\ETicaretAPI.API.styles.css
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.csproj.CopyComplete
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.dll
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\refint\ETicaretAPI.API.dll
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.pdb
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.genruntimeconfig.cache
+C:\Program Files\Rahib\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ref\ETicaretAPI.API.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "B0R76SiEXrWv6tXWWgsphtotQtWjQSw4v/V8bRGBNUYIa8btmW+YpTThNgJKTs5pK+0rQHGGttEMDxjSbenErA==",
+  "success": true,
+  "projectFilePath": "C:\\Program Files\\Rahib\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cafarovr\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
