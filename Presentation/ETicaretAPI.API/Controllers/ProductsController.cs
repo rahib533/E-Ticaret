@@ -25,10 +25,23 @@ namespace ETicaretAPI.API.Controllers
             return Ok(_productReadRepository.GetAll());
         }
 
+        [HttpGet("GetById")]
+        public async Task<IActionResult> GetById(string id, bool tracking = true)
+        {
+            return Ok(await _productReadRepository.GetByIdAsync(id, tracking));
+        }
+
         [HttpPost("post")]
         public async Task<IActionResult> Test(Product product)
         {
             await _productWriteRepository.AddAsync(product);
+            return Ok(await _productWriteRepository.SaveAsync());
+        }
+
+        [HttpPost("update")]
+        public async Task<IActionResult> Update(Product product)
+        {
+            _productWriteRepository.Update(product);
             return Ok(await _productWriteRepository.SaveAsync());
         }
     }
