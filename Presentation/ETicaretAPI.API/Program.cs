@@ -25,4 +25,8 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+<<<<<<< HEAD
 app.Run();
+=======
+app.Run();
+>>>>>>> f8264c7 (replacing)
