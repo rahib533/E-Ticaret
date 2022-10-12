@@ -38,10 +38,28 @@ namespace ETicaretAPI.API.Controllers
             return Ok(await _productWriteRepository.SaveAsync());
         }
 
-        [HttpPost("update")]
-        public async Task<IActionResult> Update(Product product)
-        {
+        // [HttpPost("update")]
+        // public async Task<IActionResult> Update(Product product)
+        // {
+        //     _productWriteRepository.Update(product);
+        //     return Ok(await _productWriteRepository.SaveAsync());
+        // }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(Product product){
+            await _productWriteRepository.AddAsync(product);
+            return Ok(await _productWriteRepository.SaveAsync());
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Update(Product product){
             _productWriteRepository.Update(product);
+            return Ok(await _productWriteRepository.SaveAsync());
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete(string id){
+            await _productWriteRepository.Remove(id);
             return Ok(await _productWriteRepository.SaveAsync());
         }
     }
