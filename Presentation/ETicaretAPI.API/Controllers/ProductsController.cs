@@ -1,5 +1,6 @@
 ﻿using ETicaretAPI.Application;
 using ETicaretAPI.Application.Abstractions;
+using ETicaretAPI.Application.ViewModels.Products;
 using ETicaretAPI.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -46,9 +47,23 @@ namespace ETicaretAPI.API.Controllers
         // }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Product product){
-            await _productWriteRepository.AddAsync(product);
-            return Ok(await _productWriteRepository.SaveAsync());
+        public async Task<IActionResult> Create(VM_Create_Product product){
+            if (ModelState.IsValid)
+            {
+                System.Console.WriteLine("Success");
+                Product p = new Product{
+                    Name = product.Name,
+                    Stock = product.Stock,
+                    Price = product.Price
+                };
+                await _productWriteRepository.AddAsync(p);
+                return Ok(await _productWriteRepository.SaveAsync());
+            }
+            else{
+                System.Console.WriteLine("Error");
+                return BadRequest("Error");
+            }
+            
         }
 
         [HttpPut]
