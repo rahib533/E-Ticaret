@@ -1,4 +1,5 @@
 ﻿using ETicaretAPI.Application.Repositories;
+using ETicaretAPI.Application.RequestParameters;
 using ETicaretAPI.Domain.Entities.Common;
 using ETicaretAPI.Persistence.Contexts;
 using Microsoft.EntityFrameworkCore;
@@ -30,6 +31,16 @@ namespace ETicaretAPI.Persistence.Repositories
                 query = query.AsNoTracking();
             }
             return query;
+        }
+
+        public IQueryable<T> GetAllWithPagination(Pagination pagination, bool tracking = true)
+        {
+            var query = Table.AsQueryable();
+            if (!tracking)
+            {
+                query = query.AsNoTracking();
+            }
+            return query.Skip(pagination.Page * pagination.Size).Take(pagination.Size);
         }
 
         public async Task<T> GetByIdAsync(string id, bool tracking = true)

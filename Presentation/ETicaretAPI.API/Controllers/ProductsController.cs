@@ -1,5 +1,6 @@
 ﻿using ETicaretAPI.Application;
 using ETicaretAPI.Application.Abstractions;
+using ETicaretAPI.Application.RequestParameters;
 using ETicaretAPI.Application.ViewModels.Products;
 using ETicaretAPI.Domain.Entities;
 using Microsoft.AspNetCore.Http;
@@ -24,6 +25,12 @@ namespace ETicaretAPI.API.Controllers
         public IActionResult GetAllProducts()
         {
             return Ok(_productReadRepository.GetAll());
+        }
+
+        [HttpGet("Pagination")]
+        public IActionResult GetAllProducts([FromQuery]Pagination pagination)
+        {
+            return Ok(_productReadRepository.GetAllWithPagination(pagination));
         }
 
         [HttpGet("GetById")]
