@@ -1,4 +1,5 @@
-﻿using ETicaretAPI.Application;
+﻿using System.Net;
+using ETicaretAPI.Application;
 using ETicaretAPI.Application.Abstractions;
 using ETicaretAPI.Application.RequestParameters;
 using ETicaretAPI.Application.ViewModels.Products;
@@ -14,11 +15,15 @@ namespace ETicaretAPI.API.Controllers
     {
         private readonly IProductReadRepository _productReadRepository;
         private readonly IProductWriteRepository _productWriteRepository;
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public ProductsController(IProductReadRepository productReadRepository, IProductWriteRepository productWriteRepository)
+        public ProductsController(IProductReadRepository productReadRepository, 
+        IProductWriteRepository productWriteRepository,
+        IWebHostEnvironment webHostEnvironment)
         {
             _productReadRepository = productReadRepository;
             _productWriteRepository = productWriteRepository;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         [HttpGet]
@@ -83,6 +88,27 @@ namespace ETicaretAPI.API.Controllers
         public async Task<IActionResult> Delete(string id){
             await _productWriteRepository.Remove(id);
             return Ok(await _productWriteRepository.SaveAsync());
+        }
+
+        [HttpPost("Upload")]
+        public async Task<IActionResult> Upload(IFormFile[] files){
+            try
+            {
+                string uploadPath = Path.Combine(_webHostEnvironment.WebRootPath, "resource/product/images");
+                foreach (IFormFile file in files)
+                {
+                    var guid = Guid.NewGuid();
+                    string fullPath = Path.Combine(uploadPath, $"{guid}.{Path.GetExtension(file.FileName)}");
+                    using FileStream fileStream = new (fullPath, FileMode.Create, FileAccess.Write);
+                    await file.CopyToAsync(fileStream);
+                    await fileStream.FlushAsync();
+                }
+                return Ok();
+            }
+            catch (System.Exception e)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, e.Message);
+            }
         }
     }
 }
